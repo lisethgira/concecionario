@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".referenciasvehiculos"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/concesionario" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número de Placa"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNumplaca"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="# Placa"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail del Vendedor"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etemailv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca del vehiculo"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/etmarca"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="marca del vehiculo"
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modelo del vehiculo"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/etmodelo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="modelo del vehiculo"
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/btagregarm"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/btbuscarm"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/btactualizarm"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/bteliminarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/btlistarm"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Listar"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+        <Button
+            android:layout_marginTop="2dp"
+            android:id="@+id/btsimulador"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="simulador"
+            android:textAllCaps="false"
+            android:textColor="#1E88E5"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
